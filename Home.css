@@ -1,0 +1,92 @@
+
+
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+.Div {
+    background-color: rgb(18, 18, 40);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 0; /* No rounded corners */
+    box-shadow: none; /* Remove shadow */
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    color: white; /* Change text color to white for better contrast */
+    position: relative;
+    
+}
+
+
+.target-field {
+    border: solid 2px rgba(255, 255, 255, 0.8); /* White border with transparency */
+    background-color: rgba(255, 255, 255, 0.8); /* Light background with transparency */
+    padding: 10px; /* Add padding for input */
+    border-radius: 4px; /* Rounded corners */
+    width: 80%; /* Full width with some margin */
+    margin-bottom: 10px; /* Space below the input */
+    font-size: 16px; /* Increase font size */
+}
+
+.search-field {
+    display: inline;
+    border: solid 2px rgba(255, 255, 255, 0.8); /* White border with transparency */
+    background-color: rgba(0, 123, 255, 0.8); /* Blue background with transparency */
+    color: rgb(16, 15, 15); /* White text */
+    padding: 10px 15px; /* Padding for button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s; /* Smooth transition */
+    transition: ease-in-out ; /* Ease-in-out transition */
+
+}
+
+.search-field:hover {
+    background-color: rgba(0, 95, 200, 0.8); /* Darker blue on hover */
+}
+
+p {
+    font-size: 18px; /* Increase font size for paragraphs */
+    margin: 10px 0; /* Space above and below paragraphs */
+}
+
+.loading-message {
+    font-style: italic; /* Italic style for loading message */
+    color: #f0f0f0; /* Light gray color for loading message */
+}
+
+.error-message {
+    color: red; /* Red color for error messages */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.weather-data{
+    position: absolute;
+    top: 100px;
+    background-color: rgba(156, 192, 180, 0.532);
+    border: solid black 2px;
+    border-radius: 100px;
+    margin: 10px;
+    padding: 30px;
+    
+
+}
+.temp{
+    color: black;
+    font-weight: bolder;
+}
+.cond{
+    color: black;
+    font-weight: bolder;
+}
+.head{
+    position: absolute;
+    top: 10px;
+}
